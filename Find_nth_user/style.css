@@ -1,0 +1,16 @@
+.main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+}
+.findUser{
+    display: flex;
+    flex-direction: column;
+}
+.inputUser{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

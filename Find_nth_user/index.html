@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Element</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="findUser">
+            <label for="search">Find User</label>
+            <input type="search" name="search" id="search">
+            <!-- <input type="button" id="searchbtn" value="Search"> -->
+
+            <!-- <input type="number" placeholder="search by index" name="search" id="searchIndex"> -->
+        </div>
+        <div class="inputUser">
+            <label for="add_user">Add User</label>
+            <input type="text" name="name" id="name">
+            <input value="Submit" type="button" class="addUserBtn" onclick="manageData()">
+        </div>
+        
+        <div class="showUser">
+           <table border="1">
+            <thead>
+                   <td>User Name</td> 
+                </tr>
+                <tbody id="root">
+                    
+                </tbody>
+            </thead>
+           </table>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
